@@ -26,6 +26,9 @@ export default function LoginPage() {
       if (res.token) {
         // store token in localStorage for client usage
         localStorage.setItem("token", res.token);
+        if (res.user) {
+          localStorage.setItem('user', JSON.stringify(res.user));
+        }
         // set a cookie so server-side middleware can detect authenticated users
         // NOTE: this cookie is not HttpOnly. For production, set the cookie from the server with HttpOnly flag.
         const maxAge = 60 * 60 * 24 * 7; // 7 days

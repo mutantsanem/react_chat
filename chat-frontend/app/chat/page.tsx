@@ -22,22 +22,37 @@ export default function ChatPage() {
 
   useEffect(() => {
     mounted.current = true;
-    // restore user from localStorage and auto-connect
+    // restore user from localStorage
     try {
       const u = localStorage.getItem('user');
       if (u) {
         const parsed = JSON.parse(u);
         setEmail(parsed.email || '');
         setName(parsed.name || '');
-        // auto-connect
-        setTimeout(() => {
-          if (!connected) connect();
-        }, 100);
+      }
+      // restore direct chats from localStorage
+      const dc = localStorage.getItem('directChats');
+      if (dc) {
+        setDirectChats(JSON.parse(dc));
       }
     } catch (e) {}
     fetchChats();
     return () => { mounted.current = false; if (socket) socket.disconnect(); };
   }, []);
+
+  useEffect(() => {
+    // auto-connect once email is restored from localStorage
+    if (email && !connected) {
+      connect();
+    }
+  }, [email, connected]);
+
+  useEffect(() => {
+    // persist direct chats to localStorage whenever they change
+    try {
+      localStorage.setItem('directChats', JSON.stringify(directChats));
+    } catch (e) {}
+  }, [directChats]);
 
   useEffect(() => {
     // scroll to bottom when messages change

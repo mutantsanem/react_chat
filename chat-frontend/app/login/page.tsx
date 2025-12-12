@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useState, type FormEvent, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { login } from "../../lib/api";
@@ -12,6 +12,11 @@ export default function LoginPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (token) router.replace("/");
+  }, [router]);
+
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setError(null);
@@ -19,9 +24,14 @@ export default function LoginPage() {
     try {
       const res = await login({ email, password });
       if (res.token) {
+        // store token in localStorage for client usage
         localStorage.setItem("token", res.token);
+        // set a cookie so server-side middleware can detect authenticated users
+        // NOTE: this cookie is not HttpOnly. For production, set the cookie from the server with HttpOnly flag.
+        const maxAge = 60 * 60 * 24 * 7; // 7 days
+        document.cookie = `token=${res.token}; path=/; max-age=${maxAge}; samesite=Lax`;
       }
-      router.push("/");
+      router.replace("/");
     } catch (err: any) {
       setError(err?.data?.message ?? (err?.status ? `Error ${err.status}` : "Request failed"));
     } finally {

@@ -30,3 +30,14 @@
 [00:11:58.274] Server  LOG      ✓ Compiled in 4ms
 [00:14:01.669] Server  LOG     API_BASE: "http://localhost:5000"
 [00:14:02.265] Browser ERROR   uncaughtError: Error: Cannot find the middleware module
+[00:15:33.513] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:33.513] Browser LOG     API_BASE: http://localhost:5000
+[00:15:52.529] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:52.891] Browser LOG     API_BASE: http://localhost:5000
+[00:47:38.556] Server  LOG      ✓ Compiled in 225ms
+[00:47:44.519] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:44.519] Browser LOG     API_BASE: http://localhost:5000
+[00:47:52.041] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:52.041] Browser LOG     API_BASE: http://localhost:5000
+[00:47:57.838] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:39.997] Server  LOG      ✓ Compiled in 17ms

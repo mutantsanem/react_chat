@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/chat-frontend/middleware.ts"],"sourcesContent":["import { NextResponse } from 'next/server';\nimport type { NextRequest } from 'next/server';\n\nconst PUBLIC_PATHS = ['/login', '/signup', '/_next', '/favicon.ico', '/api'];\n\nexport function middleware(req: NextRequest) {\n  const { pathname } = req.nextUrl;\n\n  // allow public paths and assets\n  if (PUBLIC_PATHS.some(p => pathname.startsWith(p))) return NextResponse.next();\n\n  const token = req.cookies.get('token')?.value;\n  if (!token) {\n    const url = req.nextUrl.clone();\n    url.pathname = '/login';\n    return NextResponse.redirect(url);\n  }\n\n  return NextResponse.next();\n}\n\nexport const config = {\n  matcher: ['/', '/((?!_next|api|favicon.ico).*)'],\n};\n"],"names":[],"mappings":";;;;;;AAAA;AAAA;;AAGA,MAAM,eAAe;IAAC;IAAU;IAAW;IAAU;IAAgB;CAAO;AAErE,SAAS,WAAW,GAAgB;IACzC,MAAM,EAAE,QAAQ,EAAE,GAAG,IAAI,OAAO;IAEhC,gCAAgC;IAChC,IAAI,aAAa,IAAI,CAAC,CAAA,IAAK,SAAS,UAAU,CAAC,KAAK,OAAO,oNAAY,CAAC,IAAI;IAE5E,MAAM,QAAQ,IAAI,OAAO,CAAC,GAAG,CAAC,UAAU;IACxC,IAAI,CAAC,OAAO;QACV,MAAM,MAAM,IAAI,OAAO,CAAC,KAAK;QAC7B,IAAI,QAAQ,GAAG;QACf,OAAO,oNAAY,CAAC,QAAQ,CAAC;IAC/B;IAEA,OAAO,oNAAY,CAAC,IAAI;AAC1B;AAEO,MAAM,SAAS;IACpB,SAAS;QAAC;QAAK;KAAiC;AAClD"}}]
-}

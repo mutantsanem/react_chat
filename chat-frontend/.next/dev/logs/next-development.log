@@ -1,57 +1,114 @@
-[00:00:01.262] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:01.391] Server  LOG      ✓ Ready in 1101ms
-[00:00:07.711] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:12.676] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:05.178] Server  LOG      ✓ Compiled in 63ms
-[00:03:32.089] Server  LOG     API_BASE: "http://localhost:5000"
-[00:03:32.291] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:32.291] Browser LOG     API_BASE: http://localhost:5000
-[00:03:54.947] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:03.662] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:03.662] Browser LOG     API_BASE: http://localhost:5000
-[00:05:15.965] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:34.338] Server  LOG      ✓ Compiled in 40ms
-[00:10:02.440] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:18.373] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:22.617] Server  LOG     API_BASE: "http://localhost:5000"
-[00:11:22.956] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:22.956] Browser LOG     API_BASE: http://localhost:5000
-[00:11:43.658] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:23.617] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:42.703] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:42.703] Browser LOG     API_BASE: http://localhost:5000
-[00:14:19.804] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:16:07.231] Server  LOG      ✓ Compiled in 35ms
-[00:16:20.280] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:02.225] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:02.225] Browser LOG     API_BASE: http://localhost:5000
-[00:20:01.434] Server  LOG      ✓ Compiled in 70ms
-[00:21:17.923] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:17.876] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:25:33.433] Server  LOG      ✓ Compiled in 57ms
-[00:25:47.464] Server  LOG      ✓ Compiled in 17ms
-[00:26:48.489] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:27:11.149] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:57.867] Server  LOG      ✓ Compiled in 34ms
-[00:29:10.012] Server  LOG      ✓ Compiled in 33ms
-[00:29:19.416] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:29:29.985] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:30:20.697] Server  LOG      ✓ Compiled in 28ms
-[00:30:29.785] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:31:09.298] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:37:48.233] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:38:16.387] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:39:12.056] Server  LOG      ✓ Compiled in 39ms
-[00:39:18.400] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:39:20.731] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:39:26.195] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:39:52.451] Server  LOG      ✓ Compiled in 26ms
-[00:40:01.557] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:40:02.790] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:40:11.215] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:42:24.594] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:43:44.429] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:43:56.001] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:43:56.002] Browser LOG     API_BASE: http://localhost:5000
-[00:44:27.832] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:44:31.414] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:01.325] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.451] Server  LOG      ✓ Ready in 1179ms
+[00:01:00.876] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:14.309] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:35.923] Server  LOG      ✓ Compiled in 45ms
+[00:05:46.982] Server  LOG      ✓ Compiled in 59ms
+[00:05:50.246] Server  LOG      ✓ Compiled in 34ms
+[00:05:54.049] Server  LOG      ✓ Compiled in 26ms
+[00:05:56.811] Server  LOG      ✓ Compiled in 26ms
+[00:06:01.065] Server  LOG      ✓ Compiled in 29ms
+[00:06:01.210] Browser ERROR   uncaughtError: ReferenceError: createGroup is not defined
+[00:06:07.043] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:07.228] Server  LOG      ✓ Compiled in 18ms
+[00:06:07.289] Server  ERROR    ⨯ ReferenceError: createGroup is not defined
+[00:06:07.315] Browser ERROR   uncaughtError: ReferenceError: createGroup is not defined
+[00:06:07.497] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:07.642] Browser ERROR   uncaughtError: ReferenceError: createGroup is not defined
+[00:06:10.416] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:10.541] Server  LOG      ✓ Compiled in 21ms
+[00:06:10.590] Server  ERROR    ⨯ ReferenceError: createGroup is not defined
+[00:06:10.831] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:10.971] Browser ERROR   uncaughtError: ReferenceError: createGroup is not defined
+[00:06:15.683] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:15.726] Server  LOG      ✓ Compiled in 37ms
+[00:06:16.194] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:18.512] Server  LOG      ✓ Compiled in 26ms
+[00:06:18.616] Browser ERROR   ./chat-frontend/app/chat/page.tsx:18:10
+Ecmascript file had an error
+  16 |   const [directChats, setDirectChats] = useState<any[]>([]);
+  17 |   const [newChatEmail, setNewChatEmail] = useState('');
+> 18 |   const [newChatEmail, setNewChatEmail] = useState('');
+     |          ^^^^^^^^^^^^
+  19 |   const mounted = useRef(false);
+  20 |   const messagesRef = useRef<HTMLDivElement | null>(null);
+  21 |
+
+the name `newChatEmail` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./chat-frontend/app/chat/page.tsx [Client Component Browser]
+    ./chat-frontend/app/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./chat-frontend/app/chat/page.tsx [Client Component SSR]
+    ./chat-frontend/app/chat/page.tsx [Server Component]
+[00:06:18.616] Browser ERROR   ./chat-frontend/app/chat/page.tsx:18:24
+Ecmascript file had an error
+  16 |   const [directChats, setDirectChats] = useState<any[]>([]);
+  17 |   const [newChatEmail, setNewChatEmail] = useState('');
+> 18 |   const [newChatEmail, setNewChatEmail] = useState('');
+     |                        ^^^^^^^^^^^^^^^
+  19 |   const mounted = useRef(false);
+  20 |   const messagesRef = useRef<HTMLDivElement | null>(null);
+  21 |
+
+the name `setNewChatEmail` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./chat-frontend/app/chat/page.tsx [Client Component Browser]
+    ./chat-frontend/app/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./chat-frontend/app/chat/page.tsx [Client Component SSR]
+    ./chat-frontend/app/chat/page.tsx [Server Component]
+[00:06:46.058] Browser ERROR   ./chat-frontend/app/chat/page.tsx:18:10
+Ecmascript file had an error
+  16 |   const [directChats, setDirectChats] = useState<any[]>([]);
+  17 |   const [newChatEmail, setNewChatEmail] = useState('');
+> 18 |   const [newChatEmail, setNewChatEmail] = useState('');
+     |          ^^^^^^^^^^^^
+  19 |   const mounted = useRef(false);
+  20 |   const messagesRef = useRef<HTMLDivElement | null>(null);
+  21 |
+
+the name `newChatEmail` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./chat-frontend/app/chat/page.tsx [Client Component Browser]
+    ./chat-frontend/app/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./chat-frontend/app/chat/page.tsx [Client Component SSR]
+    ./chat-frontend/app/chat/page.tsx [Server Component]
+[00:06:46.058] Browser ERROR   ./chat-frontend/app/chat/page.tsx:18:24
+Ecmascript file had an error
+  16 |   const [directChats, setDirectChats] = useState<any[]>([]);
+  17 |   const [newChatEmail, setNewChatEmail] = useState('');
+> 18 |   const [newChatEmail, setNewChatEmail] = useState('');
+     |                        ^^^^^^^^^^^^^^^
+  19 |   const mounted = useRef(false);
+  20 |   const messagesRef = useRef<HTMLDivElement | null>(null);
+  21 |
+
+the name `setNewChatEmail` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./chat-frontend/app/chat/page.tsx [Client Component Browser]
+    ./chat-frontend/app/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./chat-frontend/app/chat/page.tsx [Client Component SSR]
+    ./chat-frontend/app/chat/page.tsx [Server Component]
+[00:08:37.050] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:15.594] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:12.432] Server  LOG     API_BASE: "http://localhost:5000"
+[00:13:12.680] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:12.680] Browser LOG     API_BASE: http://localhost:5000
+[00:15:33.465] Server  LOG      ✓ Compiled in 18ms
+[00:15:42.599] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:48.984] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

@@ -4,12 +4,10 @@ import { AppService } from './app.service';
 import { AuthController } from './auth/auth.controller';
 import { AuthService } from './auth/auth.service';
 import { ChatGateway } from './chat/chat.gateway';
-import { GroupsService } from './chat/groups.service';
-import { GroupsController } from './chat/groups.controller';
 
 @Module({
   imports: [],
-  controllers: [AppController, AuthController, GroupsController],
-  providers: [AppService, AuthService, ChatGateway, GroupsService],
+  controllers: [AppController, AuthController],
+  providers: [AppService, AuthService, ChatGateway],
 })
 export class AppModule {}
